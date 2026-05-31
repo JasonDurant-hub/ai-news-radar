@@ -494,9 +494,9 @@ advanced:
   # 排序权重（用于重新排序不同平台的热搜）
   # 合起来等于 1
   weight:
-    rank: 0.6                         # 排名权重
-    frequency: 0.3                    # 频次权重
-    hotness: 0.1                      # 热度权重
+    rank: 0.4           # 适度看排名
+    frequency: 0.5      # 重视当天内的持续热度
+    hotness: 0.1                   # 热度权重
 
   # 多账号限制
   max_accounts_per_channel: 3         # 每个渠道最大账号数量
